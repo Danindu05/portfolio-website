@@ -1,7 +1,6 @@
 # 💻 Portfolio Website  
 A portfolio website. It features a clean, modern UI with smooth animations and a responsive layout that looks great on any device.
 
----
 
 ## 🌐 Website Features  
 - **Responsive Design — Works seamlessly on desktop, tablet, and mobile** 
@@ -9,19 +8,19 @@ A portfolio website. It features a clean, modern UI with smooth animations and a
 - **Social Links — Linked to GitHub, LinkedIn, Email**
 - **Smooth scrolling and section-based navigation**
 
----
+
 
 ## 🛠️ Technologies Used  
 - **HTML**
 - **CSS**
 - **JavaScript**
 
----
+
 
 ## 🚀 Live Demo  
 🔗 [View Portfolio](https://danindu.netlify.app/)
 
----
+
 
 ## 💻 Local Development  
 1. Clone the repository:
