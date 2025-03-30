@@ -18,7 +18,7 @@ A portfolio website. It features a clean, modern UI with smooth animations and a
 
 ---
 
-🚀 Live Demo  
+## 🚀 Live Demo  
 🔗 [View Portfolio](https://danindu.netlify.app/)
 
 ---
