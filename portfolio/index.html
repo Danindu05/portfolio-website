@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link id='favicon' rel="shortcut icon" href="./assets/favicon.png">
+    <title>Portfolio | Danindu</title>
+</head>
+<body oncontextmenu="return false">
+
+<header>
+  <img class="logo" src="./assets/logo.png" alt="Logo" draggable="false">
+  <div id="menu" class="fas fa-bars"></div>
+  <nav class="navbar">
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="home" id="home">
+  <div id="particles-js"></div>
+  <div class="content">
+    <h2>Hi There,<br/> I'm Danindu <span>Nanayakkara</span></h2>
+    <a href="#about" class="btn"><span>About Me</span><i class="fas fa-arrow-circle-down"></i></a>
+    <div class="socials">
+      <ul class="social-icons">
+        <li><a class="linkedin" href="https://linkedin.com/in/danindu" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a class="github" href="https://github.com/Danindu05" target="_blank"><i class="fab fa-github"></i></a></li> 
+        <li><a class="email" href="#" target="_blank"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="image">
+    <img draggable="false" class="tilt" src="./assets/hero.png" alt="">
+  </div>
+</section>
+
+<section class="about" id="about">
+  <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+  <div class="row">
+    <div class="image">
+      <img draggable="false" class="tilt" src="./assets/hero.png" alt="">
+    </div>
+    <div class="content">
+      <h3>I'm Danindu Nanayakkara</h3>
+      <p>I am a Computer Science undergraduate who’s always been fascinated by how technology works behind the scenes. I enjoy turning ideas into real, working websites and apps that people can actually use. Whether it's front-end design or back-end logic, I love learning how everything connects. Right now, I’m focused on improving my full-stack development skills, exploring frameworks like React, and diving deeper into databases and APIs. I'm always up for a challenge, and I believe the best way to grow is by building cool things and learning from the process. Outside of coding, I’m usually reading up on tech trends, tinkering with personal projects.</p>
+    </div>
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+  <div class="container">
+    <div class="row" id="skillsContainer">
+      <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML" />
+          <span>HTML</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" />
+          <span>CSS</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" />
+          <span>JavaScript</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/officel/48/000000/php-logo.png" alt="PHP" />
+          <span>PHP</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Python" />
+          <span>Python</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java" />
+          <span>Java</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png" alt="MySQL" />
+          <span>MySQL</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/officel/48/000000/react.png" alt="React.js" />
+          <span>React.js</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/CC.jpg" alt="">
+      </div>
+      <form id="contact-form">
+        <div class="form-group">
+          <div class="field"><input type="text" name="name" placeholder="Name" required><i class='fas fa-user'></i></div>
+          <div class="field"><input type="text" name="email" placeholder="Email" required><i class='fas fa-envelope'></i></div>
+          <div class="field"><input type="text" name="phone" placeholder="Phone"><i class='fas fa-phone-alt'></i></div>
+          <div class="message"><textarea placeholder="Message" name="message" required></textarea><i class="fas fa-comment-dots"></i></div>
+        </div>
+        <div class="button-area">
+          <button type="submit">Submit <i class="fa fa-paper-plane"></i></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="box-container">
+    <div class="box">
+      <h3>Danindu Nanayakkara</h3>
+    </div>
+    <div class="box">
+      <h3>quick links</h3>
+      <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
+      <a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a>
+      <a href="#skills"><i class="fas fa-chevron-circle-right"></i> <S></S>kills</a>
+    </div>
+    <div class="box">
+      <h3>contact info</h3>
+      <div class="share">
+        <a href="https://linkedin.com/in/danindu"  target="_blank" class="fab fa-linkedin"></a>
+        <a href="https://github.com/Danindu05" target="_blank"  class="fab fa-github"></a>
+        <a href="#" class="fas fa-envelope"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
