@@ -30,16 +30,4 @@ A portfolio website. It features a clean, modern UI with smooth animations and a
 2. Navigate to the project directory:
    ```sh
    cd portfolio
-
-   
-3. Load as Unpacked Extension (Chrome):  
- - Go to chrome://extensions/ in your browser  
- - Enable Developer mode (top right)  
- - Click Load unpacked  
- - Select the project folder you just cloned  
-
-4. Start Using the Todo Extension:  
- - Find the extension icon in your browser’s toolbar  
- - Click to open, add, and manage your to-do tasks!  
-
-
+3.Open index.html in browser
