@@ -26,18 +26,20 @@ A portfolio website. It features a clean, modern UI with smooth animations and a
 1. Clone the repository:
    ```sh
    git clone https://github.com/Danindu05/Portfolio-Website.git
+   
 2. Navigate to the project directory:
    ```sh
    cd portfolio
+
+   
 3.Load as Unpacked Extension (Chrome):
   ```sh
   Go to chrome://extensions/ in your browser
-
   Enable Developer mode (top right)
-
   Click Load unpacked
-
   Select the project folder you just cloned
+
+
 4.Start Using the Todo Extension:
   ```sh
   Find the extension icon in your browser’s toolbar.
